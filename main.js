@@ -1,4 +1,24 @@
-// Simple example, see optional options for more configuration.
+var single_line_button = document.getElementById("single-line-btn");
+var single_line_settings = document.getElementById("single-line")
+var dual_line_button = document.getElementById("dual-line-btn");
+var dual_line_settings = document.getElementById("dual-line");
+
+single_line_button.addEventListener("click", () => {
+    single_line_button.style.background = "#F1D302";
+    single_line_settings.style.display = "inherit";
+    dual_line_button.style.background = "none";
+    dual_line_settings.style.display = "none";
+
+})
+dual_line_button.addEventListener("click", () => {
+    single_line_button.style.background = "none";
+    single_line_settings.style.display = "none";
+    dual_line_button.style.background = "#F1D302";
+    dual_line_settings.style.display = "inherit";
+    
+})
+
+
 const pickr = Pickr.create({
     el: '.color-picker',
     theme: 'nano', // or 'monolith', or 'nano'
@@ -31,9 +51,9 @@ const pickr = Pickr.create({
         interaction: {
             hex: true,
             rgba: true,
-            hsla: true,
-            hsva: true,
-            cmyk: true,
+            hsla: false,
+            hsva: false,
+            cmyk: false,
             input: true,
             clear: true,
             save: true
