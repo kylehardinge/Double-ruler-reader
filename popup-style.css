@@ -1,8 +1,8 @@
-  
+
 
 
 /* Dark and Light mode detection from Davy de Vries. https://stackoverflow.com/questions/50840168/how-to-detect-if-the-os-is-in-dark-mode-in-browsers */
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
     body {
         background-color: #FFFEE5;
         color: #393939;
@@ -13,4 +13,8 @@
         background-color: #393939;
         color: #FFFEE5;
     }
-}
+} */
+
+/* .toggle {
+    border: none;
+} */

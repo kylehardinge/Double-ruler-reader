@@ -21,5 +21,6 @@
         "32": "extension-icon32.png",
         "48": "extension-icon48.png",
         "128": "extension-icon128.png"
-    }
+    },
+    "content_security_policy": "script-src 'self' https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js; object-src 'self'"
 }

@@ -3,15 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="popup-style.css">
     <title>Document</title>
 </head>
 <body>
-    <button><i class="fas fa-minus"></i></button>
-    <div class="slidecontainer">
-        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-      </div>
-    <button><i class="fas fa-plus"></i></button>
+    <!-- logo image -->
+    <img src="" alt="">
+    <h1>Reading lines</h1>
+    <button class="toggle"><h3>Single line</h3></button>
+    <button class="toggle"><h3>Dual line</h3></button>
+
+    <div id="single-line">
+        <!-- Settings for a single line -->
+        <p>Bar Height</p>
+        <button><i class="fas fa-minus"></i></button>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+        <button><i class="fas fa-plus"></i></button>
+    </div>
+    <div id="dual-line">
+        <!-- Settings for dual lines -->
+        <p>Bar Height</p>
+        <button><i class="fas fa-minus"></i></button>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+        <button><i class="fas fa-plus"></i></button>
+        <hr>
+        <p>Gap Height</p>
+        <button><i class="fas fa-minus"></i></button>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+        <button><i class="fas fa-plus"></i></button>
+    </div>
+    <p>Color</p>
+    <div class="color-picker"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

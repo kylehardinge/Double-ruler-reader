@@ -7,3 +7,7 @@
 //         chrome.tabs.sendMessage(activeTab.id, {"message": "clicked_browser_action"});
 //     });
 // });
+
+.toggle {
+    border: none;
+}
