@@ -1,0 +1,19 @@
+#reading-lines-injected {
+    top: 0;
+    position: fixed;
+    z-index: 2147483647;
+    width: 100%;
+    pointer-events: none;
+}
+#top-bar-reading-line, #bottom-bar-reading-line {
+    position: relative;
+    height: 20px;
+    background-color: black;
+    opacity: 70%;
+    pointer-events: all;
+}
+#gap-reading-line {
+    position: relative;
+    height: 15px;
+    pointer-events: none;
+}

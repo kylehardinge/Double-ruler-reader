@@ -12,44 +12,52 @@
     <!-- logo image -->
     <img src="" alt="">
     <h1>Reading lines</h1>
-    <div id="toggle-button-box">
-        <button class="toggle" id="single-line-btn"><h3>Single line</h3></button>
-        <button class="toggle" id="dual-line-btn"><h3>Dual line</h3></button>
-    </div>
-
-    <div id="single-line">
-        <!-- Settings for a single line -->
-        <p>Bar Height</p>
-        <div class="slider-container">
-            <button class="minus-btn"><i class="fas fa-minus"></i></button>
-            <div class="slidecontainer">
-                <input type="range" min="8" max="50" value="12" class="slider" id="single-bar-height">
-            </div>
-            <button class="plus-btn"><i class="fas fa-plus"></i></button>
+    <h4>OFF</h4>
+    <!-- https://www.w3schools.com/howto/howto_css_switch.asp -->
+    <label class="switch">
+        <input id="on-off" type="checkbox">
+        <span class="switch-slider round"></span>
+    </label>
+    <h4>ON</h4>
+    <div id="settings">
+        <div id="toggle-button-box">
+            <button class="toggle" id="single-line-btn"><h3>Single line</h3></button>
+            <button class="toggle" id="dual-line-btn"><h3>Dual line</h3></button>
         </div>
-    </div>
-    <div id="dual-line">
-        <!-- Settings for dual lines -->
-        <p>Bar Height</p>
-        <div class="slider-container">
-            <button class="minus-btn"><i class="fas fa-minus"></i></button>
-            <div class="slidecontainer">
-                <input type="range" min="8" max="50" value="12" class="slider" id="dual-bar-height">
+        <div id="single-line">
+            <!-- Settings for a single line -->
+            <p>Bar Height</p>
+            <div class="slider-container">
+                <button class="minus-btn"><i class="fas fa-minus"></i></button>
+                <div class="slidecontainer">
+                    <input type="range" min="8" max="50" value="12" class="slider" id="single-bar-height">
+                </div>
+                <button class="plus-btn"><i class="fas fa-plus"></i></button>
             </div>
-            <button class="plus-btn"><i class="fas fa-plus"></i></button>
         </div>
-        <hr>
-        <p>Gap Height</p>
-        <div class="slider-container">
-            <button class="minus-btn"><i class="fas fa-minus"></i></button>
-            <div class="slidecontainer">
-                <input type="range" min="8" max="50" value="12" class="slider" id="dual-bar-gap-height">
+        <div id="dual-line">
+            <!-- Settings for dual lines -->
+            <p>Bar Height</p>
+            <div class="slider-container">
+                <button class="minus-btn"><i class="fas fa-minus"></i></button>
+                <div class="slidecontainer">
+                    <input type="range" min="8" max="50" value="12" class="slider" id="dual-bar-height">
+                </div>
+                <button class="plus-btn"><i class="fas fa-plus"></i></button>
             </div>
-            <button class="plus-btn"><i class="fas fa-plus"></i></button>
+            <hr>
+            <p>Gap Height</p>
+            <div class="slider-container">
+                <button class="minus-btn"><i class="fas fa-minus"></i></button>
+                <div class="slidecontainer">
+                    <input type="range" min="8" max="50" value="12" class="slider" id="dual-bar-gap-height">
+                </div>
+                <button class="plus-btn"><i class="fas fa-plus"></i></button>
+            </div>
         </div>
+        <p>Color</p>
+        <div class="color-picker"></div>
     </div>
-    <p>Color</p>
-    <div class="color-picker"></div>
 
     <div id="footer">
         <a href='https://www.github.com/kylehardinge'><i class="fab fa-github"></i></a>

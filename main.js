@@ -1,7 +1,17 @@
+var on_off_switch = document.getElementById("on-off");
+var settings = document.getElementById("settings")
 var single_line_button = document.getElementById("single-line-btn");
 var single_line_settings = document.getElementById("single-line")
 var dual_line_button = document.getElementById("dual-line-btn");
 var dual_line_settings = document.getElementById("dual-line");
+
+on_off_switch.addEventListener("change", () => {
+    if (on_off_switch.checked) {
+        settings.style.display = "inherit"
+    } else {
+        settings.style.display = "none"
+    }
+})
 
 single_line_button.addEventListener("click", () => {
     single_line_button.style.background = "#F1D302";
