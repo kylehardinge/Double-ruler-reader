@@ -70,3 +70,12 @@ const pickr = Pickr.create({
         }
     }
 });
+
+pickr.on('save', (color, instance) => {
+    color = color.toHEXA()
+    
+    console.log("save", color)
+    if (color.length == 4); { 
+        
+    }
+});

@@ -12,51 +12,63 @@
     <!-- logo image -->
     <img src="" alt="">
     <h1>Reading lines</h1>
-    <h4>OFF</h4>
-    <!-- https://www.w3schools.com/howto/howto_css_switch.asp -->
-    <label class="switch">
-        <input id="on-off" type="checkbox">
-        <span class="switch-slider round"></span>
-    </label>
-    <h4>ON</h4>
+
+    <div class="toggle-div">
+        <h4 class="left">OFF</h4>
+        <!-- https://www.w3schools.com/howto/howto_css_switch.asp -->
+        <label class="switch center">
+            <input id="on-off" type="checkbox">
+            <span class="switch-slider round"></span>
+        </label>
+        <h4 class="right">ON</h4>
+    </div>
+
     <div id="settings">
         <div id="toggle-button-box">
             <button class="toggle" id="single-line-btn"><h3>Single line</h3></button>
             <button class="toggle" id="dual-line-btn"><h3>Dual line</h3></button>
         </div>
+
         <div id="single-line">
             <!-- Settings for a single line -->
             <p>Bar Height</p>
-            <div class="slider-container">
-                <button class="minus-btn"><i class="fas fa-minus"></i></button>
+            <div class="thirds-grid">
+                <button class="left"><i class="fas fa-minus"></i></button>
                 <div class="slidecontainer">
-                    <input type="range" min="8" max="50" value="12" class="slider" id="single-bar-height">
+                    <input type="range" min="8" max="50" value="12" class=center id="single-bar-height">
                 </div>
-                <button class="plus-btn"><i class="fas fa-plus"></i></button>
+                <button class="right"><i class="fas fa-plus"></i></button>
             </div>
         </div>
+
         <div id="dual-line">
             <!-- Settings for dual lines -->
             <p>Bar Height</p>
-            <div class="slider-container">
-                <button class="minus-btn"><i class="fas fa-minus"></i></button>
+
+            <div class="thirds-grid">
+                <button class="left"><i class="fas fa-minus"></i></button>
                 <div class="slidecontainer">
-                    <input type="range" min="8" max="50" value="12" class="slider" id="dual-bar-height">
+                    <input type="range" min="8" max="50" value="12" class=center id="dual-bar-height">
                 </div>
-                <button class="plus-btn"><i class="fas fa-plus"></i></button>
+                <button class="right"><i class="fas fa-plus"></i></button>
             </div>
+
             <hr>
             <p>Gap Height</p>
-            <div class="slider-container">
-                <button class="minus-btn"><i class="fas fa-minus"></i></button>
+
+            <div class="thirds-grid">
+                <button class="left"><i class="fas fa-minus"></i></button>
                 <div class="slidecontainer">
-                    <input type="range" min="8" max="50" value="12" class="slider" id="dual-bar-gap-height">
+                    <input type="range" min="8" max="50" value="12" class=center id="dual-bar-gap-height">
                 </div>
-                <button class="plus-btn"><i class="fas fa-plus"></i></button>
+                <button class="right"><i class="fas fa-plus"></i></button>
             </div>
+
         </div>
+
         <p>Color</p>
-        <div class="color-picker"></div>
+        <div class="color-picker" id="color-picker"></div>
+        
     </div>
 
     <div id="footer">
@@ -67,5 +79,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
     <script src="main.js"></script>
+    <script src="outputs.js"></script>
 </body>
 </html>
