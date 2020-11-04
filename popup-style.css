@@ -12,6 +12,7 @@
     }
 } */
 body {
+    background-color: #B6C2D9;
     width: 300px;
     margin: 10px;
 }
@@ -48,6 +49,10 @@ button {
     display: none;
 }
 
+.center-text {
+    text-align: center;
+}
+
 .thirds-grid {
     display: grid;
 }
@@ -59,7 +64,7 @@ button {
 
 .center {
     grid-column: 2 / 3;
-    justify-self: right;
+    justify-self: center;
 }
 
 .right {
@@ -136,6 +141,3 @@ input:checked + .switch-slider:before {
 } 
   /* End of switch styles */
 
-.toggle-div{
-
-}
