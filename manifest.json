@@ -18,10 +18,10 @@
         "default_popup": "popup.html"
     },
     "icons": {
-        "16": "extension-icon16.png",
-        "32": "extension-icon32.png",
-        "48": "extension-icon48.png",
-        "128": "extension-icon128.png"
+        "16": "icons/16x.png",
+        "32": "icons/32x.png",
+        "48": "icons/48x.png",
+        "128": "icons/128x.png"
     },
     "permissions": [
         "storage"

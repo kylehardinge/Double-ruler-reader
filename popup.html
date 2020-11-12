@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Trispace&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.  14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="popup-style.css">
     <title>Document</title>
 </head>
 <body>
     <!-- logo image -->
-    <img src="popup-logo.png" alt="Reading Lines">
+    <div class="halves-grid" id="header">
+        <img class="left-2" src="icons/32x.png" alt="Reading Lines">
+        <h1 class="right-2">Reading Lines</h1>
+    </div>
 
     <div class="thirds-grid">
-        <h4 class="left center-text">OFF</h4>
+        <h4 class="left-3 center-text">OFF</h4>
         <!-- https://www.w3schools.com/howto/howto_css_switch.asp -->
-        <label class="switch center">
+        <label class="switch center-3">
             <input id="on-off" type="checkbox">
             <span class="switch-slider round"></span>
         </label>
-        <h4 class="right center-text">ON</h4>
+        <h4 class="right-3 center-text">ON</h4>
     </div>
 
     <!-- <div id="settings">
