@@ -37,9 +37,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="-92.967865"
-     inkscape:cy="76.673164"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="253.09664"
+     inkscape:cy="-15.579625"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -58,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,17 +71,23 @@
        id="rect1508"
        width="63.5"
        height="65.20089"
-       x="-70.776039"
-       y="6.8035712" />
+       x="-242.89761"
+       y="-33.286858" />
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.466244;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path1506"
        cx="19.84375"
        cy="19.84375"
-       r="19.560268" />
+       r="19.560268"
+       inkscape:export-filename="C:\Users\Kyle Hardinge\Documents\Programming\Web stuff\Extensions\Double ruler reader\icons\popup_icon-16x.png"
+       inkscape:export-xdpi="10.24"
+       inkscape:export-ydpi="10.24" />
     <g
        id="g1482"
-       clip-path="url(#clipPath1484)">
+       clip-path="url(#clipPath1484)"
+       inkscape:export-filename="C:\Users\Kyle Hardinge\Documents\Programming\Web stuff\Extensions\Double ruler reader\icons\popup_icon-16x.png"
+       inkscape:export-xdpi="10.24"
+       inkscape:export-ydpi="10.24">
       <rect
          style="fill:#4d7ea8;fill-opacity:0.901961;stroke-width:0.116241"
          id="rect1418"
@@ -124,24 +130,24 @@
     <path
        id="rect1434"
        style="fill:#272932;fill-opacity:1;stroke-width:0.620763"
-       d="M 65.295387,1.3229167 V 21.166666 A 19.84375,19.84375 0 0 1 85.139137,1.3229167 Z m 19.84375,0 A 19.84375,19.84375 0 0 1 104.98289,21.166666 V 1.3229167 Z M 104.98289,21.166666 a 19.84375,19.84375 0 0 1 -19.843753,19.84375 h 19.843753 z m -19.843753,19.84375 a 19.84375,19.84375 0 0 1 -19.84375,-19.84375 v 19.84375 z" />
+       d="m -233.77921,38.206111 v 19.84375 a 19.84375,19.84375 0 0 1 19.84375,-19.84375 z m 19.84375,0 a 19.84375,19.84375 0 0 1 19.84375,19.84375 v -19.84375 z m 19.84375,19.84375 a 19.84375,19.84375 0 0 1 -19.84375,19.84375 h 19.84375 z m -19.84375,19.84375 a 19.84375,19.84375 0 0 1 -19.84375,-19.84375 v 19.84375 z" />
     <rect
        style="fill:#4d7ea8;fill-opacity:0.901961;stroke-width:0.116241"
        id="rect1461"
        width="39.6875"
        height="6.6145835"
-       x="50.932293"
-       y="34.395832" />
+       x="-187.7394"
+       y="37.603065" />
     <rect
        style="fill:#4d7ea8;fill-opacity:0.901961;stroke-width:0.116241"
        id="rect1463"
        width="39.6875"
        height="6.6145835"
-       x="50.932293"
-       y="67.46875" />
+       x="-187.7394"
+       y="70.675987" />
     <g
        id="g1473"
-       transform="translate(49.700332,34.395833)">
+       transform="translate(-188.97136,37.603067)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:36.3913px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.505436"
@@ -170,6 +176,23 @@
        id="path1488"
        cx="19.84375"
        cy="19.84375"
-       r="19.60866" />
+       r="19.60866"
+       inkscape:export-filename="C:\Users\Kyle Hardinge\Documents\Programming\Web stuff\Extensions\Double ruler reader\icons\popup_icon-16x.png"
+       inkscape:export-xdpi="10.24"
+       inkscape:export-ydpi="10.24" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20.6276px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.51569"
+       x="42.689507"
+       y="25.392574"
+       id="text38"
+       inkscape:export-filename="C:\Users\Kyle Hardinge\Documents\Programming\Web stuff\Extensions\Double ruler reader\icons\popup_icon-16x.png"
+       inkscape:export-xdpi="10.24"
+       inkscape:export-ydpi="10.24"><tspan
+         sodipodi:role="line"
+         id="tspan36"
+         x="42.689507"
+         y="25.392574"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Trispace;-inkscape-font-specification:Trispace;fill:#272932;fill-opacity:1;stroke-width:0.51569">Reading Lines</tspan></text>
   </g>
 </svg>
