@@ -1,3 +1,5 @@
+// add this to json for injection ,
+//        "js": ["content.js"]"
 //content.js
 // Inject HTML
 var main_div = document.createElement("div");
@@ -49,4 +51,4 @@ function dragElement(body, elmnt, elmnt2) {
         document.onmouseup = null;
         document.onmousemove = null;
     }
-}     
+}       

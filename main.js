@@ -5,6 +5,10 @@ var single_line_settings = document.getElementById("single-line")
 var dual_line_button = document.getElementById("dual-line-btn");
 var dual_line_settings = document.getElementById("dual-line");
 
+// style vars
+var background_color = ["none",  "#4D7EA8"];
+var display = ["none", "inherit"]
+
 on_off_switch.addEventListener("change", () => {
     if (on_off_switch.checked) {
         settings.style.display = "inherit"
@@ -14,20 +18,26 @@ on_off_switch.addEventListener("change", () => {
 })
 
 single_line_button.addEventListener("click", () => {
-    single_line_button.style.background = "#F1D302";
-    single_line_settings.style.display = "inherit";
-    dual_line_button.style.background = "none";
-    dual_line_settings.style.display = "none";
-
+    single_line_button.style.background = background_color[1];
+    single_line_settings.style.display = display[1];
+    dual_line_button.style.background = background_color[0];
+    dual_line_settings.style.display = display[0];
 })
 dual_line_button.addEventListener("click", () => {
-    single_line_button.style.background = "none";
-    single_line_settings.style.display = "none";
-    dual_line_button.style.background = "#F1D302";
-    dual_line_settings.style.display = "inherit";
+    single_line_button.style.background = background_color[0];
+    single_line_settings.style.display = display[0];
+    dual_line_button.style.background = background_color[1];
+    dual_line_settings.style.display = display[1];
     
 })
+function swap(i) {
+    var opposite = abs(i - 1)
+    single_line_button.style.background = background_color[0];
+    single_line_settings.style.display = display[0];
+    dual_line_button.style.background = background_color[1];
+    dual_line_settings.style.display = display[1];
 
+}
 
 const pickr = Pickr.create({
     el: '.color-picker',

@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Trispace&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.  14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="popup-style.css">
+    <script defer src="/font-awesome//js/all.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -34,11 +34,11 @@
             <!-- Settings for a single line -->
             <p>Bar Height</p>
             <div class="thirds-grid">
-                <button class="left"><i class="fas fa-minus"></i></button>
-                <div class="slidecontainer">
-                    <input type="range" min="8" max="50" value="12" class="center" id="single-bar-height">
+                <button class="left-3"><i class="fas fa-minus"></i></button>
+                <div class="slidecontainer center-3">
+                    <input type="range" min="8" max="50" value="12"  id="dual-bar-gap-height">
                 </div>
-                <button class="right"><i class="fas fa-plus"></i></button>
+                <button class="right-3"><i class="fas fa-plus"></i></button>
             </div>
         </div>
 
@@ -47,22 +47,22 @@
             <p>Bar Height</p>
 
             <div class="thirds-grid">
-                <button class="left"><i class="fas fa-minus"></i></button>
-                <div class="slidecontainer">
-                    <input type="range" min="8" max="50" value="12" class="center" id="dual-bar-height">
+                <button class="left-3"><i class="fas fa-minus"></i></button>
+                <div class="slidecontainer center-3">
+                    <input type="range" min="8" max="50" value="12"  id="dual-bar-gap-height">
                 </div>
-                <button class="right"><i class="fas fa-plus"></i></button>
+                <button class="right-3"><i class="fas fa-plus"></i></button>
             </div>
 
             <hr>
             <p>Gap Height</p>
 
             <div class="thirds-grid">
-                <button class="left"><i class="fas fa-minus"></i></button>
-                <div class="slidecontainer">
-                    <input type="range" min="8" max="50" value="12" class="center" id="dual-bar-gap-height">
+                <button class="left-3"><i class="fas fa-minus"></i></button>
+                <div class="slidecontainer center-3">
+                    <input type="range" min="8" max="50" value="12"  id="dual-bar-gap-height">
                 </div>
-                <button class="right"><i class="fas fa-plus"></i></button>
+                <button class="right-3"><i class="fas fa-plus"></i></button>
             </div>
 
         </div>
@@ -80,6 +80,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
     <script src="main.js"></script>
-    <script src="outputs.js"></script>
+    <script src="outputs.js"></script> 
 </body>
 </html>
