@@ -11,11 +11,11 @@
 </head>
 <body>
     <!-- logo image -->
-    <div class="halves-grid" id="header">
+    <div id="header">
         <img class="icon" src="icons/popup_icon-32x.png" alt="Reading Lines">
     </div>
 
-    <div class="thirds-grid">
+    <div class="grid">
         <h4 class="left-2 center-text">OFF / ON</h4>
         <!-- https://www.w3schools.com/howto/howto_css_switch.asp -->
         <label class="switch right-2">
@@ -32,8 +32,11 @@
 
         <div id="single-line">
             <!-- Settings for a single line -->
-            <p>Bar Height</p>
-            <div class="thirds-grid">
+            <div class="">
+                <p class="left-2">Bar Height</p>
+                <p class="right-2"><span>10</span>px</p>
+            </div>
+            <div class="grid">
                 <button class="left-3"><i class="fas fa-minus"></i></button>
                 <div class="slidecontainer center-3">
                     <input type="range" min="8" max="50" value="12"  id="dual-bar-gap-height">
@@ -46,7 +49,7 @@
             <!-- Settings for dual lines -->
             <p>Bar Height</p>
 
-            <div class="thirds-grid">
+            <div class="grid">
                 <button class="left-3"><i class="fas fa-minus"></i></button>
                 <div class="slidecontainer center-3">
                     <input type="range" min="8" max="50" value="12"  id="dual-bar-gap-height">
@@ -57,7 +60,7 @@
             <hr>
             <p>Gap Height</p>
 
-            <div class="thirds-grid">
+            <div class="grid">
                 <button class="left-3"><i class="fas fa-minus"></i></button>
                 <div class="slidecontainer center-3">
                     <input type="range" min="8" max="50" value="12"  id="dual-bar-gap-height">

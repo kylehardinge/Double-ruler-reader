@@ -1,16 +1,4 @@
-/* Dark and Light mode detection from Davy de Vries. https://stackoverflow.com/questions/50840168/how-to-detect-if-the-os-is-in-dark-mode-in-browsers */
-/* @media (prefers-color-scheme: light) {
-    body {
-        background-color: #FFFEE5;
-        color: #393939;
-    }
-}
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #393939;
-        color: #FFFEE5;
-    }
-} */
+/* Starting body styles */
 body {
     background-color: #B6C2D9;
     color: #272932;
@@ -18,15 +6,32 @@ body {
     margin: 10px;
     font-family: 'Trispace', sans-serif;
 }
+
+.center-text {
+    text-align: center;
+}
+
+/* Header styles */
+.icon {
+    display: block;
+    margin: 0px auto;
+
+}
+
+/* General button styles */
 button:focus {
     outline: none;
 }
+
 button {
     border: none;
 }
+
+/* Toggle button styles */
 #toggle-button-box {
     margin: -10px;
 }
+
 .toggle {
     margin: 0px 0px 1.33rem 0px;
     padding: 5px 12px;
@@ -38,11 +43,13 @@ button {
     background-color: #4D7EA8;
     float: left;
 }
+
 #dual-line-btn {
     background: none;
     float: right;
 }
 
+/* Styles for the two groups of settings */
 #single-line {
     display: inherit;
 }
@@ -51,12 +58,8 @@ button {
     display: none;
 }
 
-.center-text {
-    text-align: center;
-}
-
 /* grid for splitting in thirds */
-.thirds-grid {
+.grid {
     display: grid;
 }
 
@@ -76,29 +79,51 @@ button {
 }
 
 /* grid for splitting in halves */
-
-.halves-grid {
-    display: grid;
-}
-
 .left-2 {
     grid-column: 1 / 2;
     width: auto;
 }
-
 
 .right-2 {
     grid-column: 2 / 3;
     width: auto;
 }
 
+/* Grid for each of the settings */
+.setting-grid {
+    display: grid;
+}
+
+.setting-name {
+    grid-row: 1;
+    grid-column: 1 / 2;
+}
+
+.setting-ammount {
+    grid-row: 1;
+    grid-column: 2 / 3;
+}
+
+.plus-button {
+    grid-row: 2;
+    grid-column: 1 / 2;
+}
+
+.slider-grid {
+    grid-row: 2;
+    grid-column: 2 / 3;
+}
+
+.plus-button {
+    grid-row: 2;
+    grid-column: 3 / 4;
+}
+/* Styles for the on-off switch */
 
 #settings {
     display: none;
 }
 
-
-/* Styles for the on-off switch */
 .switch {
     margin-block-start: 1.33em;
     margin-block-end: 1.33em;
@@ -109,14 +134,14 @@ button {
     height: 22px;
 }
 
- /* Hide default HTML checkbox */
+/* Hide default HTML checkbox */
 .switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
 
- /* The switch-slider */
+/* The switch-slider */
 .switch-slider {
     position: absolute;
     cursor: pointer;
@@ -155,24 +180,14 @@ input:checked + .switch-slider:before {
     transform: translateX(18px);
 }
 
- /* Rounded switch-sliders */
+/* Rounded switch-sliders */
 .switch-slider.round {
     border-radius: 40px;
 }
 
 .switch-slider.round:before {
     border-radius: 50%;
-} 
+}
  /* End of switch styles */
 
-h1 {
-    margin: 0;
-    padding-bottom: 5px;
-}
 
-
-.icon {
-    display: block;
-    margin: 0px auto;
-
-}
