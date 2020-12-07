@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Trispace&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"/>
-    <link rel="stylesheet" href="popup-style.css">
-    <script defer src="/font-awesome//js/all.js"></script>
+    <link rel="stylesheet" href="css/popup-style.css">
+    <script defer src="../font-awesome/js/all.min.js"></script>
     <title>Document</title>
 </head>
 <body>
     <!-- logo image -->
     <div id="header">
-        <img class="icon" src="icons/popup_icon-32x.png" alt="Reading Lines">
+        <img class="icon" src="../icons/popup_icon-32x.png" alt="Reading Lines">
     </div>
 
     <div class="grid">
@@ -32,42 +32,40 @@
 
         <div id="single-line">
             <!-- Settings for a single line -->
-            <div class="">
-                <p class="left-2">Bar Height</p>
-                <p class="right-2"><span>10</span>px</p>
-            </div>
-            <div class="grid">
-                <button class="left-3"><i class="fas fa-minus"></i></button>
-                <div class="slidecontainer center-3">
+            <div class="setting-grid">
+                <p class="setting-name">Bar Height</p>
+                <p class="setting-ammount"><span>10</span>px</p>
+                <button class="minus-button setting-button"><i class="fas fa-minus"></i></button>
+                <div class="slider-grid">
                     <input type="range" min="8" max="50" value="12"  id="dual-bar-gap-height">
                 </div>
-                <button class="right-3"><i class="fas fa-plus"></i></button>
+                <button class="plus-button setting-button"><i class="fas fa-plus"></i></button>
             </div>
+
         </div>
 
         <div id="dual-line">
             <!-- Settings for dual lines -->
-            <p>Bar Height</p>
-
-            <div class="grid">
-                <button class="left-3"><i class="fas fa-minus"></i></button>
-                <div class="slidecontainer center-3">
+            <div class="setting-grid">
+                <p class="setting-name">Bar Height</p>
+                <p class="setting-ammount"><span>10</span>px</p>
+                <button class="minus-button setting-button"><i class="fas fa-minus"></i></button>
+                <div class="slider-grid">
                     <input type="range" min="8" max="50" value="12"  id="dual-bar-gap-height">
                 </div>
-                <button class="right-3"><i class="fas fa-plus"></i></button>
+                <button class="plus-button setting-button"><i class="fas fa-plus"></i></button>
             </div>
 
             <hr>
-            <p>Gap Height</p>
-
-            <div class="grid">
-                <button class="left-3"><i class="fas fa-minus"></i></button>
-                <div class="slidecontainer center-3">
+            <div class="setting-grid">
+                <p class="setting-name">Gap Height</p>
+                <p class="setting-ammount"><span>10</span>px</p>
+                <button class="minus-button setting-button"><i class="fas fa-minus"></i></button>
+                <div class="slider-grid">
                     <input type="range" min="8" max="50" value="12"  id="dual-bar-gap-height">
                 </div>
-                <button class="right-3"><i class="fas fa-plus"></i></button>
+                <button class="plus-button setting-button"><i class="fas fa-plus"></i></button>
             </div>
-
         </div>
 
         <p>Color</p>
@@ -82,7 +80,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
-    <script src="main.js"></script>
-    <script src="outputs.js"></script> 
+    <script src="js/main.js"></script>
+    <!-- <script src="js/outputs.js"></script>  -->
 </body>
 </html>
